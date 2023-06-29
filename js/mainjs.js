@@ -4,4 +4,4 @@ const favouriteColour = prompt('Inserisci il tuo colore preferito');
 
 let password = firstName + lastName + favouriteColour + parseInt('21');
 
-document.getElementById('pass-generated').innerHTML = password;
+document.getElementById('pass-generated').innerHTML = `la tua password è: ${password}`;
